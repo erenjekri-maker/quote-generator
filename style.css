@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CA+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  font-family: "Playwrite CA Guides", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: rgb(71, 98, 138);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.quotecon{
+  width: 450px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f3ddb4;
+  border-radius: 10px;
+  color: rgb(7, 7, 7);
+  font-size: 20px;
+  gap: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  box-shadow: 10px 0 30px #142038;
+
+}
+h2{
+  font-family:"Roboto Condensed",sans-serif ;
+}
+
+.btn-con{
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+button{
+font-family:"Roboto Condensed",sans-serif ;
+background-color: rgb(71, 98, 138);
+border: none;
+outline: none;
+width: 100px;
+height: 50px;
+padding: 5px;
+border-radius: 15px;
+color: aliceblue;
+}
